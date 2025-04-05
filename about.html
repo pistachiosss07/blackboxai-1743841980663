@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Shop Sarisari</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-2xl font-bold text-amber-600">Shop Sarisari</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-800 hover:text-amber-600 font-medium">Home</a>
+                    <a href="shop.html" class="text-gray-800 hover:text-amber-600 font-medium">Shop</a>
+                    <a href="#" class="text-amber-600 font-medium">About</a>
+                    <a href="contact.html" class="text-gray-800 hover:text-amber-600 font-medium">Contact</a>
+                    <a href="#" class="relative text-gray-800 hover:text-amber-600">
+                        <i class="fas fa-shopping-cart text-xl"></i>
+                        <span class="absolute -top-2 -right-2 bg-amber-600 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">0</span>
+                    </a>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars text-2xl text-gray-800"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-12 px-4 max-w-7xl mx-auto">
+        <!-- Hero Section -->
+        <section class="mb-16 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Our Story</h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Shop Sarisari was founded in 2015 with a simple mission: to connect customers with unique, handcrafted products from talented artisans around the world.
+            </p>
+        </section>
+
+        <!-- Timeline -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold mb-12 text-center">Our Journey</h2>
+            <div class="relative">
+                <!-- Timeline line -->
+                <div class="hidden md:block absolute left-1/2 h-full w-1 bg-amber-200 transform -translate-x-1/2"></div>
+                
+                <!-- Timeline Item 1 -->
+                <div class="flex flex-col md:flex-row mb-12">
+                    <div class="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
+                        <h3 class="text-2xl font-bold mb-2">2015</h3>
+                        <h4 class="text-xl text-amber-600 mb-2">Founded in Manila</h4>
+                        <p class="text-gray-600">Started as a small boutique showcasing local Filipino crafts</p>
+                    </div>
+                    <div class="hidden md:block md:w-1/2"></div>
+                    <div class="md:hidden flex justify-center mb-4">
+                        <div class="w-4 h-4 rounded-full bg-amber-600"></div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="flex flex-col md:flex-row mb-12">
+                    <div class="hidden md:block md:w-1/2"></div>
+                    <div class="md:w-1/2 md:pl-12">
+                        <h3 class="text-2xl font-bold mb-2">2017</h3>
+                        <h4 class="text-xl text-amber-600 mb-2">Expanded Online</h4>
+                        <p class="text-gray-600">Launched our e-commerce platform to reach customers worldwide</p>
+                    </div>
+                    <div class="md:hidden flex justify-center mb-4">
+                        <div class="w-4 h-4 rounded-full bg-amber-600"></div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="flex flex-col md:flex-row mb-12">
+                    <div class="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
+                        <h3 class="text-2xl font-bold mb-2">2019</h3>
+                        <h4 class="text-xl text-amber-600 mb-2">Global Artisans</h4>
+                        <p class="text-gray-600">Partnered with craftspeople from 15 different countries</p>
+                    </div>
+                    <div class="hidden md:block md:w-1/2"></div>
+                    <div class="md:hidden flex justify-center mb-4">
+                        <div class="w-4 h-4 rounded-full bg-amber-600"></div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="flex flex-col md:flex-row">
+                    <div class="hidden md:block md:w-1/2"></div>
+                    <div class="md:w-1/2 md:pl-12">
+                        <h3 class="text-2xl font-bold mb-2">2023</h3>
+                        <h4 class="text-xl text-amber-600 mb-2">New Showroom</h4>
+                        <p class="text-gray-600">Opened our flagship store in Makati with over 200 artisans represented</p>
+                    </div>
+                    <div class="md:hidden flex justify-center mb-4">
+                        <div class="w-4 h-4 rounded-full bg-amber-600"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section>
+            <h2 class="text-3xl font-bold mb-12 text-center">Meet Our Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Team Member 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md text-center p-6">
+                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Maria Santos" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold mb-1">Maria Santos</h3>
+                    <p class="text-amber-600 mb-3">Founder & CEO</p>
+                    <p class="text-gray-600 mb-4">Passionate about preserving traditional craftsmanship</p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md text-center p-6">
+                    <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg" alt="James Reyes" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold mb-1">James Reyes</h3>
+                    <p class="text-amber-600 mb-3">Creative Director</p>
+                    <p class="text-gray-600 mb-4">Designs our product collections and visual identity</p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md text-center p-6">
+                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg" alt="Sophia Chen" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold mb-1">Sophia Chen</h3>
+                    <p class="text-amber-600 mb-3">Head of Operations</p>
+                    <p class="text-gray-600 mb-4">Ensures smooth logistics and artisan relationships</p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md text-center p-6">
+                    <img src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg" alt="David Johnson" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold mb-1">David Johnson</h3>
+                    <p class="text-amber-600 mb-3">Marketing Director</p>
+                    <p class="text-gray-600 mb-4">Shares our story with the world</p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-amber-600"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Shop Sarisari</h3>
+                    <p class="mb-4">Bringing you unique, handcrafted products from local artisans.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-amber-400"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white hover:text-amber-400"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white hover:text-amber-400"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-amber-400">Home</a></li>
+                        <li><a href="shop.html" class="hover:text-amber-400">Shop</a></li>
+                        <li><a href="#" class="hover:text-amber-400">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-amber-400">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Newsletter</h3>
+                    <p class="mb-4">Subscribe to get updates on new products and special offers.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 w-full rounded-l focus:outline-none text-gray-800">
+                        <button type="submit" class="bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-r">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Shop Sarisari. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
