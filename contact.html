@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Shop Sarisari</title>
+    <title>Contact - Daya's Sari-sari Store</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -14,17 +14,13 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center space-x-4">
-                    <a href="index.html" class="text-2xl font-bold text-amber-600">Shop Sarisari</a>
+                    <a href="index.html" class="text-2xl font-bold text-amber-600">Daya's Sari-sari Store</a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="index.html" class="text-gray-800 hover:text-amber-600 font-medium">Home</a>
                     <a href="shop.html" class="text-gray-800 hover:text-amber-600 font-medium">Shop</a>
                     <a href="about.html" class="text-gray-800 hover:text-amber-600 font-medium">About</a>
                     <a href="#" class="text-amber-600 font-medium">Contact</a>
-                    <a href="#" class="relative text-gray-800 hover:text-amber-600">
-                        <i class="fas fa-shopping-cart text-xl"></i>
-                        <span class="absolute -top-2 -right-2 bg-amber-600 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">0</span>
-                    </a>
                 </div>
                 <div class="md:hidden">
                     <button class="mobile-menu-button">
@@ -38,9 +34,9 @@
     <main class="py-12 px-4 max-w-7xl mx-auto">
         <!-- Contact Header -->
         <section class="mb-16 text-center">
-            <h1 class="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h1>
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Visit Us</h1>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                Have questions or feedback? We'd love to hear from you!
+                We'd love to hear from you! Visit our store or send us a message.
             </p>
         </section>
 
@@ -48,7 +44,7 @@
             <!-- Contact Form -->
             <section>
                 <h2 class="text-2xl font-bold mb-6">Send Us a Message</h2>
-                <form id="contact-form" class="space-y-6">
+                <form class="space-y-6">
                     <div>
                         <label for="name" class="block text-gray-700 mb-2">Full Name</label>
                         <input type="text" id="name" name="name" required
@@ -58,16 +54,6 @@
                         <label for="email" class="block text-gray-700 mb-2">Email Address</label>
                         <input type="email" id="email" name="email" required
                             class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500">
-                    </div>
-                    <div>
-                        <label for="subject" class="block text-gray-700 mb-2">Subject</label>
-                        <select id="subject" name="subject"
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500">
-                            <option value="general">General Inquiry</option>
-                            <option value="order">Order Question</option>
-                            <option value="wholesale">Wholesale Inquiry</option>
-                            <option value="feedback">Feedback</option>
-                        </select>
                     </div>
                     <div>
                         <label for="message" class="block text-gray-700 mb-2">Your Message</label>
@@ -83,12 +69,12 @@
 
             <!-- Contact Info -->
             <section>
-                <h2 class="text-2xl font-bold mb-6">Our Information</h2>
+                <h2 class="text-2xl font-bold mb-6">Store Information</h2>
                 <div class="space-y-6">
-                    <!-- Map -->
-                    <div class="bg-gray-200 rounded-lg overflow-hidden h-64">
-                        <img src="https://maps.googleapis.com/maps/api/staticmap?center=14.5547,121.0244&zoom=15&size=600x300&maptype=roadmap&markers=color:red%7C14.5547,121.0244&key=YOUR_API_KEY" 
-                            alt="Map of our location" class="w-full h-full object-cover">
+                    <!-- Map Placeholder -->
+                    <div class="bg-gray-200 rounded-lg overflow-hidden h-64 flex items-center justify-center">
+                        <i class="fas fa-map-marker-alt text-4xl text-amber-600"></i>
+                        <p class="ml-4 text-gray-600">Map coming soon</p>
                     </div>
                     
                     <!-- Contact Details -->
@@ -97,30 +83,29 @@
                             <i class="fas fa-map-marker-alt text-amber-600 mt-1 mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-lg">Our Address</h3>
-                                <p class="text-gray-600">123 Artisan Street, Makati City, Metro Manila, Philippines</p>
+                                <p class="text-gray-600">123 Neighborhood St, Barangay 123, Manila</p>
                             </div>
                         </div>
                         <div class="flex items-start">
                             <i class="fas fa-phone-alt text-amber-600 mt-1 mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-lg">Phone Number</h3>
-                                <p class="text-gray-600">+63 2 8123 4567</p>
+                                <p class="text-gray-600">+63 912 345 6789</p>
                             </div>
                         </div>
                         <div class="flex items-start">
                             <i class="fas fa-envelope text-amber-600 mt-1 mr-4"></i>
                             <div>
-                                <h3 class="font-bold text-lg">Email Address</h3>
-                                <p class="text-gray-600">hello@shopsarisari.com</p>
+                                <h3 class="font-bold text-lg">Email</h3>
+                                <p class="text-gray-600">daya@sarisari.com</p>
                             </div>
                         </div>
                         <div class="flex items-start">
                             <i class="fas fa-clock text-amber-600 mt-1 mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-lg">Business Hours</h3>
-                                <p class="text-gray-600">Monday - Friday: 9AM - 6PM</p>
-                                <p class="text-gray-600">Saturday: 10AM - 4PM</p>
-                                <p class="text-gray-600">Sunday: Closed</p>
+                                <p class="text-gray-600">Monday-Saturday: 6AM - 9PM</p>
+                                <p class="text-gray-600">Sunday: 7AM - 8PM</p>
                             </div>
                         </div>
                     </div>
@@ -134,12 +119,11 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Shop Sarisari</h3>
-                    <p class="mb-4">Bringing you unique, handcrafted products from local artisans.</p>
+                    <h3 class="text-xl font-bold mb-4">Daya's Sari-sari Store</h3>
+                    <p class="mb-4">Your neighborhood source for daily essentials</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-white hover:text-amber-400"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="text-white hover:text-amber-400"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-white hover:text-amber-400"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
                 <div>
@@ -153,7 +137,7 @@
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Newsletter</h3>
-                    <p class="mb-4">Subscribe to get updates on new products and special offers.</p>
+                    <p class="mb-4">Get updates on new products and special offers</p>
                     <form class="flex">
                         <input type="email" placeholder="Your email" class="px-4 py-2 w-full rounded-l focus:outline-none text-gray-800">
                         <button type="submit" class="bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-r">Subscribe</button>
@@ -161,7 +145,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2023 Shop Sarisari. All rights reserved.</p>
+                <p>&copy; 2023 Daya's Sari-sari Store. All rights reserved.</p>
             </div>
         </div>
     </footer>
