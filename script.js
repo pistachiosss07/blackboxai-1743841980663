@@ -23,8 +23,26 @@ const products = {
     }
 };
 
-// Initialize product click handlers
+// Initialize all event handlers
 document.addEventListener('DOMContentLoaded', function() {
+    // "Explore Now" button - scroll to featured products
+    const exploreBtn = document.querySelector('main button');
+    if (exploreBtn) {
+        exploreBtn.addEventListener('click', () => {
+            document.querySelector('.py-16').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+    }
+
+    // "Load More" button - pagination
+    const loadMoreBtn = document.querySelector('.mt-12 button');
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', () => {
+            // In a real implementation, this would fetch more products
+            alert('Load more functionality would fetch additional products here');
+        });
+    }
     // Add click handlers to all product overlays
     document.querySelectorAll('.product-overlay').forEach(overlay => {
         overlay.addEventListener('click', function() {
